@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(3.jpg);
+  }
+  
+  h1 {
+    text-align: center;
+    color:maroon;
+  }
+  
+  #taskInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #addButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #addButton:hover {
+    background-color: #45a049;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    color:blue;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  li:hover {
+    background-color: lightgrey;
+  }
